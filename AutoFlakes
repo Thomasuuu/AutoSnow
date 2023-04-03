@@ -1,0 +1,69 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/lime"))()
+
+local w = Library:Window("BGS Thmzs_nk")
+
+w:Toggle("Auto Snowflakes ❄", function(v)
+   _G.AutoFarmSnow = (v)
+function all()
+function house1()
+    local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(-29.8365402, 251.908081, 1557.07654, -0.546722531, 0, -0.837313831, 0, 1, 0, 0.837313831, 0, -0.546722531)}):Play()
+end -- 16.33727264404297, 279.7777099609375, 1610.7164306640625
+
+function house2()
+    local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(16.33727264404297, 279.7777099609375, 1610.7164306640625)}):Play()
+end -- 77.13755798339844, 272.849609375, 1585.57177734375
+
+function house3()
+    local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(77.13755798339844, 272.849609375, 1585.57177734375)}):Play()
+end --  84.645263671875, 266.5839538574219, 1535.18798828125
+
+function house4()
+    local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(84.645263671875, 266.5839538574219, 1535.18798828125)}):Play()
+end
+
+function house5()
+    local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(28.301681518554688, 260.6614685058594, 1516.0328369140625)}):Play()
+end -- 39.20207595825195, 271.1645812988281, 1487.879150390625
+
+function house6()
+    local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(39.20207595825195, 271.1645812988281, 1487.879150390625)}):Play()
+end
+
+function house7()
+    local TweenService = game:GetService("TweenService")
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(0.7, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+{CFrame = CFrame.new(6.375324726104736, 257.6619567871094, 1472.0645751953125)}):Play()
+end
+
+house1()
+wait(4)
+house2()
+wait(4)
+house3()
+wait(4)
+house4()
+wait(4)
+house5()
+wait(4)
+house6()
+wait(4)
+house7()
+wait(4)
+end
+
+while _G.AutoFarmSnow do
+    all()
+    end
+end)
